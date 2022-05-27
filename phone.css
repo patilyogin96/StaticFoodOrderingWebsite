@@ -1,0 +1,53 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+}
+
+/* Home */
+#home{
+    height: 705px;
+    padding: 10px 100px;
+}
+
+#home h1{
+    font-size: 2rem;
+}
+
+#home p{
+    font-size: 1rem;
+}
+
+#home::before{
+    height: 723px;
+}
+
+
+
+/* Services */
+
+#services{
+    flex-direction: column;
+}
+
+/* Client */
+#clients{
+    flex-wrap: wrap;
+}
+
+#clientitem img{
+    height: 100px;
+    padding: 10px ;
+}
+
+
+
+
+/* Utility Class */
+
+.primary{
+    font-size: 1.2rem;
+}
